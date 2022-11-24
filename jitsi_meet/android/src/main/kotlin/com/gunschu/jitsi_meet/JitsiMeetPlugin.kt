@@ -32,8 +32,10 @@ public class JitsiMeetPlugin() : FlutterPlugin, MethodCallHandler, ActivityAware
     private var activity: Activity? = null
 
     constructor(activity: Activity?) : this() {
+        
         this.activity = activity
     }
+     
 
     /**
      * FlutterPlugin interface implementations
